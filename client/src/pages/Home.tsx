@@ -112,10 +112,10 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: "Chairs & Units", icon: Settings, desc: "DCI dental chairs and delivery units", img: "https://placehold.co/800x1000/0f766e/ffffff?text=Dental+Chair" },
-              { title: "Imaging", icon: ShieldCheck, desc: "TPC digital imaging and X-ray systems", img: "https://placehold.co/800x1000/0f766e/ffffff?text=Imaging+System" },
-              { title: "Sterilization", icon: ShieldCheck, desc: "Autoclaves and ultrasonic cleaners", img: "https://placehold.co/800x1000/0f766e/ffffff?text=Sterilization" },
-              { title: "Mechanical Room", icon: Truck, desc: "Professional vacuum and compressor systems", img: "https://placehold.co/800x1000/0f766e/ffffff?text=Vacuum+System" }
+              { title: "Chairs & Units", icon: Settings, desc: "DCI dental chairs and delivery units", img: "/images/dental-chair.jpg" },
+              { title: "Imaging", icon: ShieldCheck, desc: "TPC digital imaging and X-ray systems", img: "/images/dental-imaging.jpg" },
+              { title: "Sterilization", icon: ShieldCheck, desc: "Autoclaves and ultrasonic cleaners", img: "/images/sterilizer.jpg" },
+              { title: "Mechanical Room", icon: Truck, desc: "Professional vacuum and compressor systems", img: "/images/vacuum-system.jpg" }
             ].map((item, i) => (
               <motion.div 
                 key={i}
@@ -172,9 +172,13 @@ export default function Home() {
                 </Button>
               </div>
             </div>
-            <div className="relative bg-slate-200 rounded-2xl aspect-video flex items-center justify-center overflow-hidden">
+            <div className="relative">
               <div className="absolute -inset-4 bg-primary/10 rounded-full blur-3xl" />
-              <span className="text-slate-400 font-bold">Technician Service</span>
+              <img 
+                src="/images/technician-service.jpg" 
+                alt="Technician repairing equipment" 
+                className="relative rounded-2xl shadow-2xl w-full aspect-video object-cover"
+              />
             </div>
           </div>
         </div>
