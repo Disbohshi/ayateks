@@ -56,13 +56,8 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative bg-slate-900 text-white min-h-[600px] flex items-center overflow-hidden">
-        {/* Abstract background image from Unsplash: Modern dental clinic interior blur */}
-        <div className="absolute inset-0 z-0">
-          <img 
-            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=2000" 
-            alt="Dental Clinic Background" 
-            className="w-full h-full object-cover opacity-20"
-          />
+        {/* Abstract background image: Modern dental clinic interior blur */}
+        <div className="absolute inset-0 z-0 bg-slate-800">
           <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/95 to-slate-900/60" />
         </div>
 
@@ -117,10 +112,10 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: "Chairs & Units", icon: Settings, desc: "DCI dental chairs and delivery units", img: "https://images.unsplash.com/photo-1576091160550-2173dad99978?w=800&q=80" },
-              { title: "Imaging", icon: ShieldCheck, desc: "TPC digital imaging and X-ray systems", img: "https://plus.unsplash.com/premium_photo-1664474744781-35b8630018f7?w=800&q=80" },
-              { title: "Sterilization", icon: ShieldCheck, desc: "Autoclaves and ultrasonic cleaners", img: "https://images.unsplash.com/photo-1583331619231-57831c2a047d?w=800&q=80" },
-              { title: "Mechanical Room", icon: Truck, desc: "Professional vacuum and compressor systems", img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80" }
+              { title: "Chairs & Units", icon: Settings, desc: "DCI dental chairs and delivery units", img: "https://placehold.co/800x1000/0f766e/ffffff?text=Dental+Chair" },
+              { title: "Imaging", icon: ShieldCheck, desc: "TPC digital imaging and X-ray systems", img: "https://placehold.co/800x1000/0f766e/ffffff?text=Imaging+System" },
+              { title: "Sterilization", icon: ShieldCheck, desc: "Autoclaves and ultrasonic cleaners", img: "https://placehold.co/800x1000/0f766e/ffffff?text=Sterilization" },
+              { title: "Mechanical Room", icon: Truck, desc: "Professional vacuum and compressor systems", img: "https://placehold.co/800x1000/0f766e/ffffff?text=Vacuum+System" }
             ].map((item, i) => (
               <motion.div 
                 key={i}
@@ -177,13 +172,9 @@ export default function Home() {
                 </Button>
               </div>
             </div>
-            <div className="relative">
+            <div className="relative bg-slate-200 rounded-2xl aspect-video flex items-center justify-center overflow-hidden">
               <div className="absolute -inset-4 bg-primary/10 rounded-full blur-3xl" />
-              <img 
-                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800" 
-                alt="Technician repairing equipment" 
-                className="relative rounded-2xl shadow-2xl"
-              />
+              <span className="text-slate-400 font-bold">Technician Service</span>
             </div>
           </div>
         </div>
