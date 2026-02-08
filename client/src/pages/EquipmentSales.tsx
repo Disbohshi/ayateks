@@ -20,7 +20,7 @@ export default function EquipmentSales() {
     { id: 6, name: "VacStar 40", category: "Mechanical", description: "Wet vacuum system providing consistent suction.", features: ["Water-recycling", "High performance", "Durable"], imageUrl: "/images/vacuum-system.jpg" },
   ];
 
-  const displayProducts = (products && products.length > 0) ? products : mockProducts;
+  const displayProducts = (isLoading || !products || products.length === 0) ? mockProducts : products;
   
   const categories = ["All", "Chairs", "Imaging", "Sterilization", "Mechanical", "Lighting", "Small Equipment"];
 

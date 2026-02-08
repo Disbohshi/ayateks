@@ -74,21 +74,24 @@ async function seedDatabase() {
     
     // Seed Products
     await storage.createProduct({
-      name: "Dental Chair Pro 3000",
+      name: "A-dec 500 Dental Chair",
       category: "Chairs",
-      description: "Ergonomic dental chair with advanced patient comfort features.",
-      features: ["Memory foam", "LED light", "Foot control"],
+      description: "Premium comfort and access with integrated delivery system.",
+      imageUrl: "/images/dental-chair.jpg",
+      features: ["Ultra-thin backrest", "Pressure mapping comfort", "Integrated touchpad"],
     });
     await storage.createProduct({
-      name: "X-Ray Vision Master",
+      name: "Planmeca ProMax 3D",
       category: "Imaging",
-      description: "High-resolution digital X-ray system.",
-      features: ["Low radiation", "Instant images", "Wireless sensor"],
+      description: "All-in-one CBCT unit including 3D imaging, 3D photo, digital 2D panoramics.",
+      imageUrl: "/images/dental-imaging.jpg",
+      features: ["SCARA technology", "Face photo", "Endodontic mode"],
     });
     await storage.createProduct({
       name: "Silent Compressor",
-      category: "Compressors",
-      description: "Oil-free dental compressor for reliable air supply.",
+      category: "Mechanical",
+      description: "Oil-free dental air compressor for reliable air supply.",
+      imageUrl: "/images/vacuum-system.jpg",
       features: ["Quiet operation", "Dual head", "Large tank"],
     });
 
