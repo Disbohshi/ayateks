@@ -12,12 +12,12 @@ export default function EquipmentSales() {
 
   // Fallback data if API is empty
   const mockProducts = [
-    { id: 1, name: "A-dec 500 Dental Chair", category: "Chairs", description: "Premium comfort and access with integrated delivery system.", features: ["Ultra-thin backrest", "Pressure mapping comfort", "Integrated touchpad"], imageUrl: null },
-    { id: 2, name: "Planmeca ProMax 3D", category: "Imaging", description: "All-in-one CBCT unit including 3D imaging, 3D photo, digital 2D panoramics.", features: ["SCARA technology", "Face photo", "Endodontic mode"], imageUrl: null },
-    { id: 3, name: "Midmark M11 UltraClave", category: "Sterilization", description: "Automatic opening door for efficient instrument drying.", features: ["Large chamber", "Steam-flush", "LCD display"], imageUrl: null },
-    { id: 4, name: "AirStar 30 Compressor", category: "Mechanical", description: "Oil-free dental air compressor for up to 4 users.", features: ["100% oil-free", "Membrane dryer", "Compact design"], imageUrl: null },
-    { id: 5, name: "Pelton & Crane Helios", category: "Lighting", description: "LED operatory light with exceptional brightness and color accuracy.", features: ["No-touch sensor", "Cool operation", "Crisp white light"], imageUrl: null },
-    { id: 6, name: "VacStar 40", category: "Mechanical", description: "Wet vacuum system providing consistent suction.", features: ["Water-recycling", "High performance", "Durable"], imageUrl: null },
+    { id: 1, name: "A-dec 500 Dental Chair", category: "Chairs", description: "Premium comfort and access with integrated delivery system.", features: ["Ultra-thin backrest", "Pressure mapping comfort", "Integrated touchpad"], imageUrl: "https://placehold.co/800x600/0f766e/ffffff?text=Dental+Chair" },
+    { id: 2, name: "Planmeca ProMax 3D", category: "Imaging", description: "All-in-one CBCT unit including 3D imaging, 3D photo, digital 2D panoramics.", features: ["SCARA technology", "Face photo", "Endodontic mode"], imageUrl: "https://placehold.co/800x600/0f766e/ffffff?text=Imaging+System" },
+    { id: 3, name: "Midmark M11 UltraClave", category: "Sterilization", description: "Automatic opening door for efficient instrument drying.", features: ["Large chamber", "Steam-flush", "LCD display"], imageUrl: "https://placehold.co/800x600/0f766e/ffffff?text=Sterilizer" },
+    { id: 4, name: "AirStar 30 Compressor", category: "Mechanical", description: "Oil-free dental air compressor for up to 4 users.", features: ["100% oil-free", "Membrane dryer", "Compact design"], imageUrl: "https://placehold.co/800x600/0f766e/ffffff?text=Compressor" },
+    { id: 5, name: "Pelton & Crane Helios", category: "Lighting", description: "LED operatory light with exceptional brightness and color accuracy.", features: ["No-touch sensor", "Cool operation", "Crisp white light"], imageUrl: "https://placehold.co/800x600/0f766e/ffffff?text=LED+Light" },
+    { id: 6, name: "VacStar 40", category: "Mechanical", description: "Wet vacuum system providing consistent suction.", features: ["Water-recycling", "High performance", "Durable"], imageUrl: "https://placehold.co/800x600/0f766e/ffffff?text=Vacuum+System" },
   ];
 
   const displayProducts = (products && products.length > 0) ? products : mockProducts;

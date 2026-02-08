@@ -23,9 +23,9 @@ export default function About() {
             <h2 className="text-2xl font-bold text-primary mb-8">Leadership Team</h2>
             <div className="grid md:grid-cols-3 gap-8">
               {[
-                { name: "Robert Chen", role: "Founder & CEO", img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop" },
-                { name: "Sarah Jenkins", role: "Head of Service", img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop" },
-                { name: "Michael Ross", role: "Sales Director", img: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop" }
+                { name: "Robert Chen", role: "Founder & CEO", img: "https://placehold.co/400x400/0f766e/ffffff?text=Robert+Chen" },
+                { name: "Sarah Jenkins", role: "Head of Service", img: "https://placehold.co/400x400/0f766e/ffffff?text=Sarah+Jenkins" },
+                { name: "Michael Ross", role: "Sales Director", img: "https://placehold.co/400x400/0f766e/ffffff?text=Michael+Ross" }
               ].map((member, i) => (
                 <div key={i} className="group">
                   <div className="overflow-hidden rounded-xl mb-4 bg-slate-100">

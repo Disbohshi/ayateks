@@ -17,7 +17,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Aya Technical Solutions",
-    "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09",
+    "image": "https://placehold.co/1200x630/0f766e/ffffff?text=Aya+Technical",
     "description": "Premier dental equipment sales, repair, and preventive maintenance services by Aya Technical.",
     "telephone": "+1-555-123-4567",
     "address": {
