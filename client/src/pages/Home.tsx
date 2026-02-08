@@ -117,10 +117,10 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: "Chairs & Units", icon: Settings, desc: "DCI dental chairs and delivery units", img: "https://images.unsplash.com/photo-1516807947649-1054af6bc439?w=800&q=80" },
-              { title: "Imaging", icon: ShieldCheck, desc: "TPC digital imaging and X-ray systems", img: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80" },
-              { title: "Sterilization", icon: ShieldCheck, desc: "Autoclaves and ultrasonic cleaners", img: "https://images.unsplash.com/photo-1583912267550-d44d991b9847?w=800&q=80" },
-              { title: "Mechanical Room", icon: Truck, desc: "Professional vacuum and compressor systems", img: "https://images.unsplash.com/photo-1584744982491-665216d95f8b?w=800&q=80" }
+              { title: "Chairs & Units", icon: Settings, desc: "DCI dental chairs and delivery units", img: "https://images.unsplash.com/photo-1583331619231-57831c2a047d?w=800&q=80" },
+              { title: "Imaging", icon: ShieldCheck, desc: "TPC digital imaging and X-ray systems", img: "https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&q=80" },
+              { title: "Sterilization", icon: ShieldCheck, desc: "Autoclaves and ultrasonic cleaners", img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80" },
+              { title: "Mechanical Room", icon: Truck, desc: "Professional vacuum and compressor systems", img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80" }
             ].map((item, i) => (
               <motion.div 
                 key={i}
