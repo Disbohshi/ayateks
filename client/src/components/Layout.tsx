@@ -54,8 +54,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
               D
             </div>
             <div className="flex flex-col">
-              <span className="text-xl font-display font-bold text-primary leading-none">DentalTech</span>
-              <span className="text-xs text-muted-foreground font-medium tracking-wider">SOLUTIONS</span>
+              <span className="text-xl font-display font-bold text-primary leading-none uppercase tracking-tight">Aya Technical</span>
+              <span className="text-xs text-muted-foreground font-medium tracking-widest">SOLUTIONS</span>
             </div>
           </Link>
 
@@ -126,9 +126,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <div className="space-y-4">
             <div className="flex items-center gap-2 text-white">
               <div className="h-8 w-8 bg-gradient-to-br from-primary to-secondary rounded-md flex items-center justify-center font-bold text-lg">
-                D
+                A
               </div>
-              <span className="text-xl font-display font-bold">DentalTech</span>
+              <span className="text-xl font-display font-bold uppercase tracking-tight">Aya Technical</span>
             </div>
             <p className="text-sm leading-relaxed text-slate-400">
               Providing premier dental equipment sales, service, and maintenance since 1995. We keep your practice running so you can focus on patients.
