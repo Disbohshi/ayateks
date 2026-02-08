@@ -51,7 +51,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <div className="container mx-auto px-4 h-20 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <div className="h-10 w-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-lg">
-              D
+              A
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-display font-bold text-primary leading-none uppercase tracking-tight">Aya Technical</span>
@@ -180,7 +180,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         </div>
         
         <div className="container mx-auto px-4 mt-16 pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
-          <p>&copy; {new Date().getFullYear()} DentalTech Solutions. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Aya Technical Solutions. All rights reserved.</p>
         </div>
       </footer>
     </div>

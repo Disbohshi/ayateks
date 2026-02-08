@@ -16,9 +16,9 @@ export default function Home() {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "DentalTech Solutions",
+    "name": "Aya Technical Solutions",
     "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09",
-    "description": "Premier dental equipment sales, repair, and preventive maintenance services.",
+    "description": "Premier dental equipment sales, repair, and preventive maintenance services by Aya Technical.",
     "telephone": "+1-555-123-4567",
     "address": {
       "@type": "PostalAddress",
@@ -47,8 +47,8 @@ export default function Home() {
   return (
     <Layout>
       <Helmet>
-        <title>Dental Equipment Sales & Service | DentalTech Solutions</title>
-        <meta name="description" content="Expert dental equipment repair, sales, and maintenance. We service chairs, x-rays, compressors, and more. 24/7 emergency response available." />
+        <title>Aya Technical | Dental Equipment Sales & Service</title>
+        <meta name="description" content="Expert dental equipment repair, sales, and maintenance by Aya Technical. We service DCI chairs, TPC imaging, vacuum systems, and more." />
         <script type="application/ld+json">
           {JSON.stringify(schemaData)}
         </script>
@@ -77,7 +77,7 @@ export default function Home() {
               TRUSTED BY 500+ CLINICS
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold leading-tight">
-              Keep Your Practice <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-blue-400">Running Smoothly</span>
+              Keep Your Practice <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-emerald-400">Running Smoothly</span>
             </h1>
             <p className="text-lg text-slate-300 max-w-xl">
               Premier dental equipment sales, repair, and preventive maintenance. We handle the tech so you can focus on your patients.
@@ -117,10 +117,10 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: "Chairs & Units", icon: Settings, desc: "Patient chairs, delivery units, and lights", img: "https://images.unsplash.com/photo-1516807947649-1054af6bc439?w=500" },
-              { title: "Imaging", icon: ShieldCheck, desc: "X-rays, panoramic, and 3D imaging", img: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=500" },
-              { title: "Sterilization", icon: ShieldCheck, desc: "Autoclaves and ultrasonic cleaners", img: "https://images.unsplash.com/photo-1583912267550-d44d991b9847?w=500" },
-              { title: "Mechanical Room", icon: Truck, desc: "Compressors and vacuum systems", img: "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=500" }
+              { title: "Chairs & Units", icon: Settings, desc: "DCI dental chairs and delivery units", img: "https://images.unsplash.com/photo-1516807947649-1054af6bc439?w=800&q=80" },
+              { title: "Imaging", icon: ShieldCheck, desc: "TPC digital imaging and X-ray systems", img: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=80" },
+              { title: "Sterilization", icon: ShieldCheck, desc: "Autoclaves and ultrasonic cleaners", img: "https://images.unsplash.com/photo-1583912267550-d44d991b9847?w=800&q=80" },
+              { title: "Mechanical Room", icon: Truck, desc: "Professional vacuum and compressor systems", img: "https://images.unsplash.com/photo-1584744982491-665216d95f8b?w=800&q=80" }
             ].map((item, i) => (
               <motion.div 
                 key={i}
@@ -161,7 +161,7 @@ export default function Home() {
                   { step: "03", title: "Back to Business", desc: "We test everything to ensure your practice is up and running.", icon: Calendar }
                 ].map((item, i) => (
                   <div key={i} className="flex gap-4">
-                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white border border-border shadow-sm flex items-center justify-center text-secondary font-bold font-display text-lg">
+                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white border border-border shadow-sm flex items-center justify-center text-primary font-bold font-display text-lg">
                       {item.step}
                     </div>
                     <div>
@@ -178,9 +178,9 @@ export default function Home() {
               </div>
             </div>
             <div className="relative">
-              <div className="absolute -inset-4 bg-secondary/10 rounded-full blur-3xl" />
+              <div className="absolute -inset-4 bg-primary/10 rounded-full blur-3xl" />
               <img 
-                src="https://pixabay.com/get/g9caee87c1126d22e65a1da8a2d632e16f7a6a1edb70aa49f3179de499809f9db3992737610fc9701aaa49ebd52346fb522b7e95c0685d388891c19e120ff138a_1280.jpg" 
+                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800" 
                 alt="Technician repairing equipment" 
                 className="relative rounded-2xl shadow-2xl"
               />
