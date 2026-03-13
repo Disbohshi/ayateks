@@ -113,7 +113,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { title: "Chairs & Units", icon: Settings, desc: "DCI dental chairs and delivery units", img: "/images/dental-chair.jpg" },
-              { title: "Imaging", icon: ShieldCheck, desc: "TPC digital imaging and X-ray systems", img: "/images/dental-imaging.jpg" },
+              { title: "Imaging", icon: ShieldCheck, desc: "TPC digital imaging and X-ray systems", img: "/images/imaging-equipment.jpg" },
               { title: "Sterilization", icon: ShieldCheck, desc: "Autoclaves and ultrasonic cleaners", img: "/images/sterilizer.jpg" },
               { title: "Mechanical Room", icon: Truck, desc: "Professional vacuum and compressor systems", img: "/images/vacuum-system.jpg" }
             ].map((item, i) => (
