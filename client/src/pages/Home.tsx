@@ -133,7 +133,7 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
                   </div>
                   <div className="absolute bottom-0 left-0 p-6">
-                    <h3 className="text-xl font-bold mb-1" style={{color: '34d399'}}>{item.title}</h3>
+                    <h3 className="text-xl font-bold mb-1 text-emerald-400">{item.title}</h3>
                     <p className="text-sm text-emerald-200 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">
                       {item.desc}
                     </p>
