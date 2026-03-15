@@ -1,6 +1,6 @@
 import { Link, useLocation } from "wouter";
 import { useState, useEffect } from "react";
-import { Menu, X, Phone, Mail, MapPin, Facebook, Linkedin, Twitter } from "lucide-react";
+import { Menu, X, Mail, MapPin, Facebook, Linkedin, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Layout({ children }: { children: React.ReactNode }) {
@@ -29,13 +29,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex gap-6">
             <span className="flex items-center gap-2">
-              <Phone className="h-4 w-4" /> (555) 123-4567
+              <Mail className="h-4 w-4" /> info@ayateks.com
             </span>
             <span className="flex items-center gap-2">
-              <Mail className="h-4 w-4" /> service@dentaltech.com
-            </span>
-            <span className="flex items-center gap-2">
-              <MapPin className="h-4 w-4" /> Serving the Greater Metro Area
+              <MapPin className="h-4 w-4" /> Serving the Tri-State Area
             </span>
           </div>
           <div className="flex gap-4">
@@ -165,22 +162,18 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-secondary shrink-0" />
-                <span>123 Medical Plaza Blvd,<br />Suite 400<br />Metro City, ST 12345</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Phone className="h-5 w-5 text-secondary shrink-0" />
-                <span>(555) 123-4567</span>
+                <span>Serving the Tri-State Area</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-secondary shrink-0" />
-                <span>service@dentaltech.com</span>
+                <a href="mailto:info@ayateks.com" className="hover:text-secondary transition-colors">info@ayateks.com</a>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="container mx-auto px-4 mt-16 pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
-          <p>&copy; {new Date().getFullYear()} Aya Technical Solutions. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Aya Technical Solutions. All rights reserved. | <a href="mailto:info@ayateks.com" className="hover:text-slate-300 transition-colors">info@ayateks.com</a></p>
         </div>
       </footer>
     </div>
