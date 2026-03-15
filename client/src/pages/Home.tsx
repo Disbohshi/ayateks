@@ -19,13 +19,10 @@ export default function Home() {
     "name": "Aya Technical Solutions",
     "image": "https://placehold.co/1200x630/0f766e/ffffff?text=Aya+Technical",
     "description": "Premier dental equipment sales, repair, and preventive maintenance services by Aya Technical.",
-    "telephone": "+1-555-123-4567",
+    "telephone": "info@ayateks.com",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "123 Medical Plaza Blvd, Suite 400",
-      "addressLocality": "Metro City",
-      "addressRegion": "ST",
-      "postalCode": "12345",
+      "addressLocality": "Tri-State Area",
       "addressCountry": "US"
     },
     "url": window.location.origin,
@@ -56,9 +53,14 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative bg-slate-900 text-white min-h-[600px] flex items-center overflow-hidden">
-        {/* Abstract background image: Modern dental clinic interior blur */}
-        <div className="absolute inset-0 z-0 bg-slate-800">
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/95 to-slate-900/60" />
+        {/* Real dental office background image */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1920&q=80"
+            alt="Modern dental office"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/80 to-slate-900/40" />
         </div>
 
         <div className="container mx-auto px-4 relative z-10 grid lg:grid-cols-2 gap-12 items-center">
@@ -199,7 +201,7 @@ export default function Home() {
           </div>
           <div className="flex gap-4">
             <Button size="lg" variant="secondary" className="bg-white text-accent hover:bg-white/90 font-bold" asChild>
-              <a href="tel:5551234567">Call (555) 123-4567</a>
+              <a href="mailto:info@ayateks.com">Email Us Now</a>
             </Button>
           </div>
         </div>
