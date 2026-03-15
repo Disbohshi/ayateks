@@ -114,10 +114,10 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { title: "Chairs & Units", icon: Settings, desc: "DCI dental chairs and delivery units", img: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80" },
-              { title: "Imaging", icon: ShieldCheck, desc: "TPC digital imaging and X-ray systems", img: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=800&q=80" },
-              { title: "Sterilization", icon: ShieldCheck, desc: "Autoclaves and ultrasonic cleaners", img: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=800&q=80" },
-              { title: "Mechanical Room", icon: Truck, desc: "Professional vacuum and compressor systems", img: "https://images.unsplash.com/photo-1581093458791-9f3c3900df7b?auto=format&fit=crop&w=800&q=80" }
+              { title: "Chairs & Units", icon: Settings, desc: "DCI dental chairs and delivery units", img: "/images/dental-chair.jpg" },
+              { title: "Imaging", icon: ShieldCheck, desc: "TPC digital imaging and X-ray systems", img: "/images/imaging-equipment.jpg" },
+              { title: "Sterilization", icon: ShieldCheck, desc: "Autoclaves and ultrasonic cleaners", img: "/images/autoclave-sterilizer.jpg" },
+              { title: "Mechanical Room", icon: Truck, desc: "Professional vacuum and compressor systems", img: "/images/vacuum-system.jpg" }
             ].map((item, i) => (
               <motion.div 
                 key={i}
@@ -132,9 +132,9 @@ export default function Home() {
                     <img src={item.img} alt={item.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
                   </div>
-                  <div className="absolute bottom-0 left-0 p-6">
-                    <h3 className="text-xl font-bold mb-1 text-emerald-400">{item.title}</h3>
-                    <p className="text-sm text-emerald-200 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">
+                  <div className="absolute bottom-0 left-0 p-6 text-white">
+                    <h3 className="text-xl font-bold mb-1">{item.title}</h3>
+                    <p className="text-sm text-slate-300 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">
                       {item.desc}
                     </p>
                   </div>
