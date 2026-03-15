@@ -73,8 +73,8 @@ export default function Home() {
             <div className="inline-block px-4 py-1 rounded-full bg-secondary/20 text-secondary border border-secondary/30 text-sm font-semibold tracking-wide">
               TRUSTED BY 500+ CLINICS
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold leading-tight">
-              Keep Your Practice <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-emerald-400">Running Smoothly</span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-primary to-emerald-400">
+              Keep Your Practice Running Smoothly
             </h1>
             <p className="text-lg text-slate-300 max-w-xl">
               Premier dental equipment sales, repair, and preventive maintenance. We handle the tech so you can focus on your patients.
