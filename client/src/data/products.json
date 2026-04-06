@@ -83,5 +83,18 @@
     ],
     "imageUrl": null,
     "available": true
+  },
+  {
+    "id": "prod-008",
+    "name": "Aya Digital Imaging System",
+    "category": "Imaging",
+    "description": "The Aya Digital Imaging System is a comprehensive dental imaging solution designed to capture high-quality images with ease and convenience. This system enables dental professionals to acquire accurate diagnostic data in a fast and efficient manner.",
+    "features": [
+      "High-resolution image quality",
+      "User-friendly interface for easy navigation",
+      "Advanced software features for enhanced diagnosis"
+    ],
+    "imageUrl": null,
+    "available": true
   }
 ]
