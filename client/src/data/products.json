@@ -96,5 +96,18 @@
     ],
     "imageUrl": null,
     "available": true
+  },
+  {
+    "id": "prod-009",
+    "name": "Aya Dental Chair",
+    "category": "Chairs",
+    "description": "The Aya dental chair is designed for comfort and efficiency in dental procedures.",
+    "features": [
+      "Ergonomic design for patient comfort",
+      "Adjustable armrests for customizable positioning",
+      "Integrated headrest for added support"
+    ],
+    "imageUrl": null,
+    "available": true
   }
 ]
