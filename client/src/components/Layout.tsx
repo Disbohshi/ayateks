@@ -140,7 +140,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <li><Link href="/service" className="hover:text-secondary transition-colors">Service Request</Link></li>
               <li><Link href="/maintenance" className="hover:text-secondary transition-colors">Preventive Maintenance</Link></li>
               <li><Link href="/financing" className="hover:text-secondary transition-colors">Financing Options</Link></li>
-              <li><Link href="/careers" className="hover:text-secondary transition-colors">Careers</Link></li>
             </ul>
           </div>
 
