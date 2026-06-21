@@ -19,7 +19,7 @@ export default function Home() {
     "name": "Aya Technical Solutions",
     "image": "https://placehold.co/1200x630/0f766e/ffffff?text=Aya+Technical",
     "description": "Premier dental equipment sales, repair, and preventive maintenance services by Aya Technical.",
-    "telephone": "info@ayateks.com",
+    "telephone": "+19179628787",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Tri-State Area",
