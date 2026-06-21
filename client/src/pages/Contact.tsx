@@ -9,7 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
-import { MapPin, Phone, Mail, Clock, Loader2 } from "lucide-react";
+import { Phone, Mail, Clock, Loader2 } from "lucide-react";
 
 export default function Contact() {
   const mutation = useCreateInquiry();
@@ -66,19 +66,10 @@ export default function Contact() {
                   <div>
                     <h3 className="font-bold">Email</h3>
                     <p className="text-sm text-muted-foreground">Response within 24h</p>
-                    <a href="mailto:info@dentaltech.com" className="text-primary font-medium hover:underline">info@dentaltech.com</a>
+                    <a href="mailto:info@ayateks.com" className="text-primary font-medium hover:underline">info@ayateks.com</a>
                   </div>
                 </div>
 
-                <div className="bg-white p-6 rounded-xl shadow-sm border flex flex-col gap-3 sm:col-span-2">
-                  <div className="w-10 h-10 bg-primary/10 text-primary rounded-lg flex items-center justify-center">
-                    <MapPin className="h-5 w-5" />
-                  </div>
-                  <div>
-                    <h3 className="font-bold">Office & Warehouse</h3>
-                    <p className="text-muted-foreground">123 Medical Plaza Blvd, Suite 400<br />Metro City, ST 12345</p>
-                  </div>
-                </div>
               </div>
 
               <div className="bg-blue-900 text-white p-8 rounded-xl">
