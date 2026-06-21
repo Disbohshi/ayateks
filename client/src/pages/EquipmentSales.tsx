@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { Layout } from "@/components/Layout";
 import productsData from '@/data/products.json';
 import { Search, Filter, ShoppingCart } from 'lucide-react';
 
@@ -39,7 +40,8 @@ export default function EquipmentSales() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
+    <Layout>
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
       {/* Header */}
       <div className="bg-white shadow-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-6">
@@ -195,5 +197,6 @@ export default function EquipmentSales() {
         )}
       </div>
     </div>
+    </Layout>
   );
 }
