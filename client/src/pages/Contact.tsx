@@ -66,7 +66,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-bold">Email</h3>
                     <p className="text-sm text-muted-foreground">Response within 24h</p>
-                    <a href="mailto:info@dentaltech.com" className="text-primary font-medium hover:underline">info@dentaltech.com</a>
+                    <a href="mailto:info@ayateks.com" className="text-primary font-medium hover:underline">info@ayateks.com</a>
                   </div>
                 </div>
 
