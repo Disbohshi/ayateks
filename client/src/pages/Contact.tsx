@@ -55,7 +55,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-bold">Phone</h3>
                     <p className="text-sm text-muted-foreground">Mon-Fri 8am-5pm</p>
-                    <a href="tel:5551234567" className="text-primary font-medium hover:underline">(555) 123-4567</a>
+                    <a href="tel:+19179628787" className="text-primary font-medium hover:underline">(917) 962-8787</a>
                   </div>
                 </div>
 
@@ -153,7 +153,7 @@ export default function Contact() {
                         <FormItem>
                           <FormLabel>Phone</FormLabel>
                           <FormControl>
-                            <Input placeholder="(555) 123-4567" {...field} />
+                            <Input placeholder="(917) 962-8787" {...field} />
                           </FormControl>
                           <FormMessage />
                         </FormItem>

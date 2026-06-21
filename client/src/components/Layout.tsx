@@ -1,6 +1,6 @@
 import { Link, useLocation } from "wouter";
 import { useState, useEffect } from "react";
-import { Menu, X, Mail, MapPin, Facebook, Linkedin, Twitter } from "lucide-react";
+import { Menu, X, Mail, MapPin, Phone, Facebook, Linkedin, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Layout({ children }: { children: React.ReactNode }) {
@@ -30,6 +30,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <div className="flex gap-6">
             <span className="flex items-center gap-2">
               <Mail className="h-4 w-4" /> info@ayateks.com
+            </span>
+            <span className="flex items-center gap-2">
+              <Phone className="h-4 w-4" /> (917) 962-8787
             </span>
             <span className="flex items-center gap-2">
               <MapPin className="h-4 w-4" /> Serving the Tri-State Area
